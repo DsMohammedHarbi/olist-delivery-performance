@@ -1,0 +1,48 @@
+{
+  "name": "Olist Operations",
+  "dataColors": ["#2E86DE", "#1B2A41", "#A0A7B4", "#E15759", "#F2A541", "#59A14F", "#76B7B2", "#9C6ADE"],
+  "background": "#FFFFFF",
+  "foreground": "#1B2A41",
+  "tableAccent": "#2E86DE",
+  "good": "#59A14F",
+  "neutral": "#F2A541",
+  "bad": "#E15759",
+  "maximum": "#E15759",
+  "center": "#F7D4D5",
+  "minimum": "#FFFFFF",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1B2A41" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#5B6575" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 26, "color": "#1B2A41" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1B2A41" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E3E6EB" } }, "radius": 10 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#1B2A41" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }],
+        "subTitle": [{ "show": true, "fontColor": { "solid": { "color": "#7A8494" } }, "fontSize": 9 }],
+        "padding": [{ "top": 10, "bottom": 10, "left": 12, "right": 12 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F5F6F8" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#F5F6F8" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#1B2A41" } }, "fontSize": 26, "fontFamily": "Segoe UI Semibold" }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#5B6575" } }, "fontSize": 11 }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#1B2A41" } }, "backColor": { "solid": { "color": "#F5F6F8" } } }],
+        "values": [{ "fontColorPrimary": { "solid": { "color": "#1B2A41" } }, "backColorPrimary": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#FAFBFC" } } }]
+      }
+    }
+  }
+}
